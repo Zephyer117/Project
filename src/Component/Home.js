@@ -40,7 +40,11 @@ const Home = () => {
           </Link>
         </div>
         <div>
-          <img className="rounded-2xl mx-auto w-2/3 md:w-full width:100px" />
+          <img
+            src={Image}
+            alt="My Inage"
+            className="rounded-2xl mx-auto w-2/3 md:w-full width:100px"
+          />
         </div>
       </div>
     </div>
